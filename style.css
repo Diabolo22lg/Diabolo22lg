@@ -30,14 +30,15 @@ body {
     border-color: black;
     border: 10px solid;
     font-size: 25px;
-    border-radius: 50px;
+    border-radius: 0px;
     padding: 100px;
     background-color: rgb(128, 255, 0);
 }
 .banniere {
     padding: 100px; 
     background-image: url("./Image/paysage_Palmier.jpg");
-    background-size: cover;
+    background-size:cover;
+    margin: -100px;
 }
 .container{
     display: grid;
